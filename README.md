@@ -1,4 +1,4 @@
-Live site: https://carlosaicrag.github.io/virtual_graduation/
+Live site: https://eric-pinero.github.io/Jan-2020-Graduation/
 
 ## To add cohort:
 - Clone down repo
