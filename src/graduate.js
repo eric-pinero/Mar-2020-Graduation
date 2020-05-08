@@ -45,8 +45,8 @@ class Graduate {
                 80, 80)
         }
 
-        let photoHeight = 138;
-        let photoWidth = 207;
+        let photoHeight = 170;
+        let photoWidth = 150;
 
         this.ctx.drawImage(this.img_url, 375, 55, photoWidth, photoHeight);
 
