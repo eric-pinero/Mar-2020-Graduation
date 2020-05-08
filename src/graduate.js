@@ -85,7 +85,6 @@ class Graduate {
     }
 
     jumpAndGrabDiploma(ceremony, i, startingPosition) {
-
     }
 }
 
