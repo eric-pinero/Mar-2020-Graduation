@@ -2,6 +2,7 @@ class Graduate {
     constructor(ctx, name, img_url) {
         this.ctx = ctx
         this.name = name
+        this.initials = name.split(" ")[0][1] + name.split(" ")[1][1]
         this.img_url = new Image()
         this.img_url.src = img_url
     }
@@ -48,7 +49,7 @@ class Graduate {
         let photoHeight = 170;
         let photoWidth = 150;
 
-        this.ctx.drawImage(this.img_url, 375, 55, photoWidth, photoHeight);
+        this.ctx.fillText(this.initials, 375, 55);
 
         if (startingPosition[0] < 440) {
             this.ctx.drawImage(ceremony.diploma, 440, 235, 20, 20); //draw diploma
