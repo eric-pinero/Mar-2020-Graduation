@@ -50,7 +50,7 @@ class Graduate {
         let photoWidth = 150;
 
         this.ctx.font("32px Helvetica")
-        this.ctx.fillStyle("#ffffff")
+        // this.ctx.fillStyle("#ffffff")
         this.ctx.fillText(this.initials, 375, 55);
 
         if (startingPosition[0] < 440) {
