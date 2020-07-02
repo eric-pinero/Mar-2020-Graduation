@@ -2,7 +2,7 @@ class Graduate {
     constructor(ctx, name, img_url) {
         this.ctx = ctx
         this.name = name
-        this.initials = name.split(" ")[0][1] + name.split(" ")[1][1]
+        this.initials = name.split(" ")[0][1] + name.split(" ")[name.split(" ").length - 1][1]
         this.img_url = new Image()
         this.img_url.src = img_url
     }
